@@ -358,7 +358,7 @@ class HTTP {
 
 			// To do: User-Agent should only be added in situations where you *are* actually
 			// varying according to user-agent.
-			$responseHeaders['Vary'] = 'Cookie, X-Forwarded-Protocol, User-Agent, Accept';
+			$responseHeaders['Vary'] = 'Cookie, X-Forwarded-Proto, User-Agent, Accept';
 		}
 		else {
 			if($body) {
